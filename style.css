@@ -1,0 +1,24 @@
+/* *{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+} */
+body{
+    overflow-x: hidden !important;
+}
+@font-face {
+    font-family: dancing;
+    src: url(./assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+h1{
+    font-family: dancing;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 80vh !important;
+}
+.card-body img{
+    min-width: 50% !important;
+    max-height: 200px !important;
+
+}
